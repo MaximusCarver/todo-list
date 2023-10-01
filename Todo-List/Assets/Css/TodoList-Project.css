@@ -1,0 +1,116 @@
+.body {
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  text-align: center;
+  margin: 100px auto;
+  width: 50px;
+}
+
+.TodoList {
+  background: #1f90d1;
+  margin-left: 375px;
+  margin-right: 375px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.todoText {
+  color: white;
+  text-align: left;
+  margin-left: 15px;
+  line-height: 40px;
+}
+
+.plus {
+  margin-left: 190px;
+}
+
+.inputTodo {
+  background: lightgrey;
+  height: 50px;
+}
+
+.input1 {
+  background: lightgrey;
+  border: none;
+  text-align: left;
+  margin-right: 175px;
+  font-size: 18px;
+  width: 100%;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #1f90d1;
+}
+
+.input1:focus {
+  border: 2px solid #1f90d1;
+  background: white;
+  outline: none;
+}
+
+div {
+  list-style-type: none;
+}
+
+div:nth-child(2n) {
+  background: lightgrey;
+}
+
+ul div {
+  margin-left: 335px;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  background: white;
+}
+
+div {
+  margin-left: 375px;
+  margin-right: 375px;
+  length: 360px;
+  height: 30px;
+}
+
+.white {
+  background: white;
+}
+
+.lightgrey {
+  background: lightgrey;
+}
+
+.myBtn {
+  height: 25px;
+}
+
+.checked {
+  color: grey;
+  text-decoration: line-through;
+}
+
+.text {
+  margin-left: 25px;
+}
+
+.iconSpan {
+  background: red;
+  height: 0px;
+  color: white;
+  width: 0px;
+  display: none;
+  text-align: center;
+  transition: 0.2s linear;
+}
+
+ul div:hover .iconSpan {
+  background: red;
+  height: 40px;
+  color: white;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+}
